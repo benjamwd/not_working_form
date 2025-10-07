@@ -11,7 +11,7 @@ from utils.utils import DiscordHandler
 dotenv.load_dotenv(override=True)
 dToken = os.getenv('DISCORD_TOKEN')
 lToken = os.getenv('LANGUAGE_TOKEN')
-log_level = os.getenv('LOG_LEVEL')
+log_level = os.getenv('LOG_LEVEL', logging.INFO)
 webhook_url = os.getenv('WEBHOOK_URL')
 
 test = os.getenv("TEST", "").lower() == 'true' # TODO make this a flag in the start command
@@ -21,8 +21,6 @@ prefix = ';'
 if test:
     log_level = logging.DEBUG
 
-if log_level == '':
-    log_level = logging.INFO
 #TODO setup log level definition, probably worthwhile to set it up as a start command arg
 
 intents = discord.Intents.all() 

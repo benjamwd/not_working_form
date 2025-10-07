@@ -13,9 +13,6 @@ from utils.utils import DiscordHandler
 from utils.async_translator import AsyncDeepTranslator
 
 
-ISRAEL_TZ = pytz.timezone('Asia/Jerusalem')
-
-
 class DClient(commands.Bot):
     def __init__(self, intents: discord.Intents, prefix: str, test: bool):
         super().__init__(command_prefix= prefix, intents=intents)
