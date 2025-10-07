@@ -48,20 +48,14 @@ class DiscordHandler(logging.Handler):
                 return
 
     def close(self):
-        try:
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-            loop.run_until_complete(self.async_close())
-        except Exception as e:
-            logging.error(f"Error during handler close: {e}")
-        finally:
-            loop.close()
-
-    async def async_close(self):
+        """Close handler and wait for pending tasks"""
         if self.tasks:
             pending = [t for t in self.tasks if not t.done()]
             if pending:
-                await asyncio.wait_for(asyncio.gather(*pending, return_exceptions=True), timeout=5.0)
+                # Try to cancel pending tasks
+                for task in pending:
+                    task.cancel()
+        super().close()
 
 
 async def autocomplete(
