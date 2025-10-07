@@ -1,0 +1,24 @@
+ [2025-10-06 14:29:27] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+ [2025-10-06 14:29:27] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 14:32:58] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+ [2025-10-06 14:32:58] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 14:33:59] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+ [2025-10-06 14:33:59] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 15:06:07] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+ [2025-10-06 15:06:07] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 15:06:07] [INFO    ] discord.client: logging in using static token
+ [2025-10-06 15:06:07] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 15:06:07] [ERROR   ] root: Error during handler close: Cannot run the event loop while another loop is running
+ [2025-10-06 15:06:07] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 15:06:29] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+ [2025-10-06 15:06:29] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 15:06:29] [INFO    ] discord.client: logging in using static token
+ [2025-10-06 15:06:29] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 15:06:29] [ERROR   ] root: Error during handler close: Cannot run the event loop while another loop is running
+ [2025-10-06 15:06:29] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 17:39:10] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+ [2025-10-06 17:39:10] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 17:39:10] [INFO    ] discord.client: logging in using static token
+ [2025-10-06 17:39:10] [DEBUG   ] asyncio: Using proactor: IocpProactor
+ [2025-10-06 17:39:10] [ERROR   ] root: Error during handler close: Cannot run the event loop while another loop is running
+ [2025-10-06 17:39:10] [DEBUG   ] asyncio: Using proactor: IocpProactor
